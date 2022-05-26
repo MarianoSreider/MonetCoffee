@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="./Pictures/favicon-32x32.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="Style.css">
     <title>Monet Coffee</title>
 </head>
@@ -31,7 +32,7 @@
     
 
     <main class="home_nosotros">
-        <div class="home_nosotros-img"><img src="./Pictures/c4c560eedf8e596b0b12b611fcd2b2f8.jpg" alt="nosotros"></div>
+        <div class="home_nosotros-img"><img src="./Pictures/c4c560eedf8e596b0b12b611fcd2b2f8.jpg" alt="nosotros" class="wow animate__animated animate__rollIn"></div>
         <div class="home_nosotros-texto">
             <h2>Sobre Monet Coffee</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto distinctio dolore aperiam consequatur pariatur, illo omnis modi impedit nesciunt dolor assumenda fuga quod obcaecati, doloremque exercitationem sint repellendus quos minus esse. Et beatae distinctio minus quae itaque consectetur dolorem ad velit quibusdam vel, fuga unde neque facilis optio aut debitis!</p>
@@ -46,10 +47,10 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto distinctio dolore aperiam consequatur pariatur, illo omnis modi impedit nesciunt dolor assumenda fuga quod obcaecati, doloremque exercitationem sint repellendus quos minus esse. Et beatae distinctio minus quae itaque consectetur dolorem ad velit quibusdam vel, fuga unde neque facilis optio aut debitis!</p>
             <a href="Productos.html">Más sobre Poductos</a>
         </div>
-        <div class="home_productos_video"><video width="90%" height="70%" src="./Videos/Home page productos.mp4" controls></video></div>
+        <div class="home_productos_video"><video width="90%" height="70%" src="./Videos/Home page productos.mp4" controls class="wow animate__animated animate__rotateInDownRight"></video></div>
     </section>
 
-    <section class="galeria">
+    <section class="galeria  wow animate__animated animate__backInLeft">
         <img src="./Pictures/galeria (1).png" alt="Canasta con croissants">
         <img src="./Pictures/galeria (2).png" alt="Hombre preparando café">
         <img src="./Pictures/galeria (3).png" alt="Mesa con tazas de café">
@@ -65,5 +66,11 @@
             <a href="https://www.facebook.com/" target="_blank"><img src="./Pictures/icofacebook.png" alt="Logo de Facebook" title="Facebook"></a>
         </div>
     </footer>
+
+<script src="js/wow.min.js"></script>
+<script>
+        new WOW().init();
+</script>
+
 </body>
 </html>
